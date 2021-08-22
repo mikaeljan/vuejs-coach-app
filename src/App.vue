@@ -13,7 +13,7 @@ export default {
   components: { TheHeader },
   computed: {
     didAutoLogout() {
-      return this.$tore.getters.didAutoLogout;
+      return this.$store.getters.didAutoLogout;
     }
   },
   created() {
